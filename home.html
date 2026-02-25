@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <!-- 引入CSS样式文件 -->
+    <link rel="stylesheet" href="/mywebsite/style.css">
+    <!-- 引入字体图标（无图片，用图标替代） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">我的个人主页</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+            <!-- 移动端菜单按钮 -->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>你好，我是<span class="highlight">一名开发者</span></h1>
+            <p>专注于前端开发 / 后端开发 / 全栈开发</p>
+            <a href="#contact" class="btn">联系我</a>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>个人简介</h3>
+                    <p>拥有3年软件开发经验，熟悉多种编程语言和框架，擅长解决复杂的技术问题。热爱编程，持续学习新技术，注重代码质量和用户体验。</p>
+                    <p>教育背景：XX大学 计算机科学与技术 本科（2018-2022）</p>
+                    <p>工作经历：XX科技有限公司 前端开发工程师（2022-至今）</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>姓名：张三</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>电话：138XXXX1234</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>邮箱：zhangsan@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>地址：北京市朝阳区</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-grid">
+                <!-- 技能项1 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5/CSS3</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                    </div>
+                    <p>精通HTML5语义化标签，熟练使用CSS3动画、弹性布局、网格布局等特性。</p>
+                </div>
+                <!-- 技能项2 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <p>熟练使用ES6+语法，掌握异步编程、DOM操作，了解Vue/React框架。</p>
+                </div>
+                <!-- 技能项3 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <p>熟悉Python基础语法，掌握Django/Flask框架，能开发后端接口和爬虫。</p>
+                </div>
+                <!-- 技能项4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                    <p>熟练编写SQL语句，了解数据库优化、索引设计，能设计合理的数据库表结构。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目经历 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">项目经历</h2>
+            <div class="projects-list">
+                <!-- 项目1 -->
+                <div class="project-item">
+                    <h3>电商网站开发</h3>
+                    <span class="project-date">2023.01 - 2023.06</span>
+                    <p>负责前端页面开发和交互逻辑实现，使用Vue.js+Element UI构建页面，实现了商品展示、购物车、订单提交等功能。</p>
+                    <ul class="project-tags">
+                        <li>Vue.js</li>
+                        <li>Element UI</li>
+                        <li>Axios</li>
+                    </ul>
+                </div>
+                <!-- 项目2 -->
+                <div class="project-item">
+                    <h3>个人博客系统</h3>
+                    <span class="project-date">2022.07 - 2022.12</span>
+                    <p>使用Python+Django开发后端，前端使用HTML/CSS/JavaScript，实现了文章发布、评论、分类、标签等功能，部署到云服务器。</p>
+                    <ul class="project-tags">
+                        <li>Django</li>
+                        <li>MySQL</li>
+                        <li>Nginx</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" placeholder="请输入你的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" placeholder="请输入你的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言</label>
+                            <textarea id="message" rows="5" placeholder="请输入你的留言内容" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送留言</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>zhangsan@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>138XXXX1234</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a> href="https://github.com/xxx" target="_blank">github.com/xxx</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-weixin"></i>
+                        <span>微信：zhangsan1234</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 我的个人网站 | 设计与开发 by 张三</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-zhihu"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 简单的JS实现移动端菜单切换 -->
+    <script>
+        // 移动端菜单切换
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // 导航栏滚动效果
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
